@@ -24,9 +24,19 @@ class EditProfile extends Component {
                 <input placeholder='Last Name' />
             </Form.Field>
             <Form.Field>
+                <label>Username</label>
+                <input placeholder='Last Name' />
+            </Form.Field>
+            <Form.Field>
+                <label>Location</label>
+                <select>
+                <option>Africa</option>
+                </select>
+            </Form.Field>
+            <Form.Field>
                 <Checkbox label='I agree to the Terms and Conditions' />
             </Form.Field>
-            <Button type='submit'>Submit</Button>
+            <Button type='submit'>Update</Button>
         </Form>
       </>
     )
