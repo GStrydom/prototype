@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import SiteImageGallery from "./SiteImageGallery.js";
+import SiteSlideshow from "./SiteSlideshow.js";
+import ImageGrid from "./ImageGrid.js";
+import VideoGrid from "./VideoGrid.js";
 
 
 class Home extends Component {
@@ -13,7 +15,11 @@ class Home extends Component {
 
 	render() {
 		return(
-			<SiteImageGallery />
+			<>
+				<SiteSlideshow />
+				<ImageGrid />
+				<VideoGrid />
+			</>
 		)
 	}
 }
